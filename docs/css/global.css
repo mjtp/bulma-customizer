@@ -179,10 +179,18 @@ button {
   height: 100%;
   display: flex;
   justify-content: center; }
+  @media (max-width: 467px) {
+    .container {
+      padding: 5px;
+      width: 100%; } }
 
 .sub-container {
   padding-top: 34px;
   width: 377px; }
+  @media (max-width: 467px) {
+    .sub-container {
+      padding: 5px;
+      width: 100%; } }
 
 .title {
   font-family: "Mono";
@@ -197,13 +205,16 @@ button {
   background-position: center;
   background-size: 100%;
   margin-bottom: 13px; }
+  @media (max-width: 467px) {
+    .logo {
+      width: 100%; } }
 
 section {
   margin: 55px; }
   @media (max-width: 467px) {
     section {
       margin: 1px;
-      margin-top: 233px; } }
+      margin-top: 89px; } }
 
 .section-title {
   border-top: 8px solid black;
